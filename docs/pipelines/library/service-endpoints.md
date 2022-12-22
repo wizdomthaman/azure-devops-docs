@@ -16,11 +16,13 @@ monikerRange: '>= tfs-2015'
 
 **Azure Pipelines | TFS 2018 | TFS 2017 | TFS 2015**
 
-::: moniker range="<= tfs-2018"
+::: moniker range="<= tfs-2018" Pl
+
 
 [!INCLUDE [temp](../_shared/concept-rename-note.md)]
 
-::: moniker-end
+
+
 
 You will typically need to connect to external and remote services to execute tasks
 for a build or deployment. For example, you may need to connect to your Microsoft Azure
@@ -502,6 +504,7 @@ Defines and secures a connection to a remote host using Secure Shell (SSH).
 | Private key | The entire contents of the private key file if using this type of authentication. |
 <p />
 
+
 [How do I create a new service connection?](#create-new)
 
 Also see [SSH task](../tasks/deploy/ssh.md)
@@ -562,6 +565,7 @@ Defines and secures a connection to Visual Studio App Center.
 [How do I create a new service connection?](#create-new)
 
 *****
+
 
 ## Extensions for other service connections
 
